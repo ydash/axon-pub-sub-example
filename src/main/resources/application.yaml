@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: axon-pub-sub-pattern
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://mariadb:3306/mydatabase
+axon:
+  axonserver:
+    enabled: false
+logging:
+  file:
+    path: "."
