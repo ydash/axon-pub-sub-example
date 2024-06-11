@@ -25,7 +25,10 @@ repositories {
 
 dependencies {
 	implementation("org.axonframework:axon-spring-boot-starter:4.9.3")
+	implementation("org.axonframework:axon-metrics:4.9.3")
 	implementation("org.springframework.boot:spring-boot-starter-jdbc")
+	implementation("org.flywaydb:flyway-core")
+	implementation("org.flywaydb:flyway-mysql")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	compileOnly("org.projectlombok:lombok")
 	developmentOnly("org.springframework.boot:spring-boot-docker-compose")

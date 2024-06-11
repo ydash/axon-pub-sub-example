@@ -1,0 +1,7 @@
+PUT localhost:8080/pay
+Content-Type: application/json
+
+{
+  "id": "20240612",
+  "amount": "10000"
+}

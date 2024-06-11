@@ -4,7 +4,13 @@ spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
     url: jdbc:mariadb://mariadb:3306/mydatabase
+    username: myuser
+    password: secret
 axon:
+  serializer:
+    general: jackson
+    events: jackson
+    messages: jackson
   axonserver:
     enabled: false
 logging:
